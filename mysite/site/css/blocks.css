@@ -1,0 +1,86 @@
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+#one {
+  border-style: solid;
+  border-color: #880808;
+  border-width: 8px;
+  display: block;
+  position: fixed;
+  left: 40px;
+  top: 5px;
+  font-family: helvetica, verdana, arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+#two {
+  border-style: solid;
+  border-color: #FBCEB1;
+  border-width: 5px;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  width: 25%;
+  margin: auto;
+  position: fixed;
+  left: 1000px;
+  top: 10px;
+  line-height: 30px;
+}
+
+#three {
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+  display: block;
+  font-family: arial, sans-serif;
+  width: 25%;
+  margin: auto;
+  position: fixed;
+  left: 0px;
+  top: 500px;
+}
+
+#four {
+  border-style: solid;
+  border-color: #00FFFF;
+  border-width: 5px;
+  display: block;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 25%;
+  margin: auto;
+  position: relative;
+  left: 600px;
+  top: 500px;
+}
+
+#link {
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 600px;
+  width: 100px;
+
+  border-style: solid;
+  border-color: #9F2B68;
+  border-width: 5px;
+  background-color: #ADD8E6;
+  line-height: 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 40px;
+  margin-top: 1px;
+  margin-bottom: 12px;
+  padding-top: 0px;
+  vertical-align: top;
+}
